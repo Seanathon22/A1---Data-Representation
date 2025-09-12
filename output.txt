@@ -1,0 +1,123 @@
+PASS: div_convert 104 5 → 404
+PASS: div_convert 156 8 → 234
+PASS: div_convert 255 16 → FF
+PASS: div_convert 255 10 → 255
+PASS: div_convert 255 2 → 11111111
+PASS: div_convert 42 2 → 101010
+PASS: div_convert 0 2 → 0
+PASS: div_convert 0 8 → 0
+PASS: div_convert 0 10 → 0
+PASS: div_convert 0 16 → 0
+PASS: div_convert 1 2 → 1
+PASS: div_convert 1 8 → 1
+PASS: div_convert 1 16 → 1
+PASS: div_convert 8 2 → 1000
+PASS: div_convert 16 2 → 10000
+PASS: div_convert 64 8 → 100
+PASS: div_convert 256 16 → 100
+PASS: div_convert 4294967295 2 → 11111111111111111111111111111111
+PASS: div_convert 4294967295 8 → 37777777777
+PASS: div_convert 4294967295 10 → 4294967295
+PASS: div_convert 4294967295 16 → FFFFFFFF
+PASS: div_convert 42 5 → 132
+PASS: div_convert 42 8 → 52
+PASS: div_convert 42 10 → 42
+PASS: div_convert 42 16 → 2A
+
+PASS: sub_convert 104 5 → 404
+PASS: sub_convert 156 8 → 234
+PASS: sub_convert 255 16 → FF
+PASS: sub_convert 255 10 → 255
+PASS: sub_convert 255 2 → 11111111
+PASS: sub_convert 42 2 → 101010
+PASS: sub_convert 0 2 → 0
+PASS: sub_convert 0 8 → 0
+PASS: sub_convert 0 10 → 0
+PASS: sub_convert 0 16 → 0
+PASS: sub_convert 1 2 → 1
+PASS: sub_convert 1 8 → 1
+PASS: sub_convert 1 16 → 1
+PASS: sub_convert 8 2 → 1000
+PASS: sub_convert 16 2 → 10000
+PASS: sub_convert 64 8 → 100
+PASS: sub_convert 256 16 → 100
+PASS: sub_convert 4294967295 2 → 11111111111111111111111111111111
+PASS: sub_convert 4294967295 8 → 37777777777
+PASS: sub_convert 4294967295 10 → 4294967295
+PASS: sub_convert 4294967295 16 → FFFFFFFF
+PASS: sub_convert 42 5 → 132
+PASS: sub_convert 42 8 → 52
+PASS: sub_convert 42 10 → 42
+PASS: sub_convert 42 16 → 2A
+
+Print tables for 5:
+Original: Binary=101 Octal=5 Decimal=5 Hex=5
+Left Shift by 3: Binary=101000 Octal=50 Decimal=40 Hex=28
+AND with 0xFF: Binary=101 Octal=5 Decimal=5 Hex=5
+
+Print tables for 0:
+Original: Binary=0 Octal=0 Decimal=0 Hex=0
+Left Shift by 3: Binary=0 Octal=0 Decimal=0 Hex=0
+AND with 0xFF: Binary=0 Octal=0 Decimal=0 Hex=0
+
+Print tables for 1:
+Original: Binary=1 Octal=1 Decimal=1 Hex=1
+Left Shift by 3: Binary=1000 Octal=10 Decimal=8 Hex=8
+AND with 0xFF: Binary=1 Octal=1 Decimal=1 Hex=1
+
+Print tables for 7:
+Original: Binary=111 Octal=7 Decimal=7 Hex=7
+Left Shift by 3: Binary=111000 Octal=70 Decimal=56 Hex=38
+AND with 0xFF: Binary=111 Octal=7 Decimal=7 Hex=7
+
+Print tables for 15:
+Original: Binary=1111 Octal=17 Decimal=15 Hex=F
+Left Shift by 3: Binary=1111000 Octal=70 Decimal=120 Hex=78
+AND with 0xFF: Binary=1111 Octal=17 Decimal=15 Hex=F
+
+Print tables for 8:
+Original: Binary=1000 Octal=10 Decimal=8 Hex=8
+Left Shift by 3: Binary=10000000 Octal=200 Decimal=64 Hex=40
+AND with 0xFF: Binary=1000 Octal=10 Decimal=8 Hex=8
+
+Print tables for 16:
+Original: Binary=10000 Octal=20 Decimal=16 Hex=10
+Left Shift by 3: Binary=100000000 Octal=400 Decimal=128 Hex=80
+AND with 0xFF: Binary=10000 Octal=20 Decimal=16 Hex=10
+
+Print tables for 32:
+Original: Binary=100000 Octal=40 Decimal=32 Hex=20
+Left Shift by 3: Binary=1000000000 Octal=1000 Decimal=256 Hex=100
+AND with 0xFF: Binary=0 Octal=0 Decimal=32 Hex=20
+
+Print tables for 255:
+Original: Binary=11111111 Octal=377 Decimal=255 Hex=FF
+Left Shift by 3: Binary=11111111000 Octal=3770 Decimal=2040 Hex=7F8
+AND with 0xFF: Binary=11111111 Octal=377 Decimal=255 Hex=FF
+
+Print tables for 256:
+Original: Binary=100000000 Octal=400 Decimal=256 Hex=100
+Left Shift by 3: Binary=1000000000000 Octal=20000 Decimal=2048 Hex=800
+AND with 0xFF: Binary=0 Octal=0 Decimal=0 Hex=0
+
+Print tables for 511:
+Original: Binary=111111111 Octal=777 Decimal=511 Hex=1FF
+Left Shift by 3: Binary=111111111000 Octal=7770 Decimal=4088 Hex=FF8
+AND with 0xFF: Binary=11111111 Octal=377 Decimal=255 Hex=FF
+
+Print tables for 1000:
+Original: Binary=1111101000 Octal=1750 Decimal=1000 Hex=3E8
+Left Shift by 3: Binary=1111101000000 Octal=17500 Decimal=8000 Hex=1F40
+AND with 0xFF: Binary=1000 Octal=10 Decimal=232 Hex=E8
+
+Print tables for 65535:
+Original: Binary=1111111111111111 Octal=177777 Decimal=65535 Hex=FFFF
+Left Shift by 3: Binary=1111111111111111000 Octal=1777770 Decimal=524280 Hex=AFFF8
+AND with 0xFF: Binary=11111111 Octal=377 Decimal=255 Hex=FF
+
+Print tables for 4294967295:
+Original: Binary=11111111111111111111111111111111 Octal=37777777777 Decimal=4294967295 Hex=FFFFFFFF
+Left Shift by 3: Binary=11111111111111111111111111111111000 Octal=377777777760 Decimal=34359738360 Hex=7FFFFFFF8
+AND with 0xFF: Binary=11111111 Octal=377 Decimal=255 Hex=FF
+
+Test results: 48/48 passed
